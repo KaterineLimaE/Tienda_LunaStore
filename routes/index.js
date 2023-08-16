@@ -25,11 +25,13 @@ router.get('/mostrar', function(req, res, next) {
 router.get('/actualizar', function(req, res, next) {
   res.render('actualizar', { title: 'Luna Store' });
 });
-
+// Eliminar
+router.get('/eliminar', function(req, res, next) {
+  res.render('eliminar', { title: 'Luna Store' });
+});
 router.get('/informe', function(req, res, next) {
   res.render('informe', { title: 'Luna Store' });
 });
-
 router.get('/why', function(req, res, next) {
   res.render('why', { title: 'Luna Store' });
 });
