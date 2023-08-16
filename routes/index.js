@@ -30,4 +30,12 @@ router.get('/informe', function(req, res, next) {
   res.render('informe', { title: 'Luna Store' });
 });
 
+router.get('/why', function(req, res, next) {
+  res.render('why', { title: 'Luna Store' });
+});
+
+router.get('/contacto', function(req, res, next) {
+  res.render('contacto', { title: 'Luna Store' });
+});
+
 module.exports = router;
